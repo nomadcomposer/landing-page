@@ -1,23 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    gap: 25px;
 }
 
-a {
-    text-decoration-line: none;
+a, .subtext {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+a{
+    text-decoration-line: none;
+} 
 
 li {
     list-style-type: none;
 }
 
-.header, .footer {
+.header, .footer, .hero {
     background-color: #1f2937;
 }
 
@@ -29,6 +32,18 @@ li {
 
 .footer{
     text-align: center;
+}
+
+.hero {
+    display: flex;
+    padding: 0px 100px;
+    font-family: "Roboto";
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 .links {
