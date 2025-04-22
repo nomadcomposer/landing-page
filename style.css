@@ -60,7 +60,6 @@ li {
 
 .sign-up {
     color: #EEEEEE;
-    background-color: #3882F6;
     border-radius: 5px;
     border: none;
     width: 100px;
@@ -104,4 +103,38 @@ li {
 
 #speaker {
     align-self: flex-end;
+}
+
+.cta, .sign-up {
+    color: #FFFFFF;
+    background-color: #3882F6;
+}
+
+.cta {
+    height: 100px;
+    display: flex;
+    margin: 100px 200px;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.actual-button {
+    align-self: flex-end;
+    width: 90px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF; 
+    color: #FFFFFF;
+}
+
+.actual-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.words p, .words h4 {
+    margin: 0;
 }
