@@ -7,13 +7,14 @@ body {
     padding: 0;
 }
 
-a, .subtext {
+.links a, .subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
 
 a{
     text-decoration-line: none;
+    color: #000000;
 } 
 
 li {
@@ -32,6 +33,7 @@ li {
 
 .footer{
     text-align: center;
+    color: #000000;
 }
 
 .hero {
@@ -82,4 +84,24 @@ li {
     border: 2px solid #3882F6;
     width: 560px;
     height: 250px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+#speaker {
+    align-self: flex-end;
 }
