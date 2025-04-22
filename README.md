@@ -4,3 +4,6 @@ This is a personal project to create a landing page for a website. By completing
 - Styling HTML elements
 - Understanding of basic usage of flexbox
 - Understanding of the box model and how to manipulate it
+
+Credits:
+Logo: Treble clef icons created by Pixel perfect - Flaticon
